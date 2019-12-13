@@ -22,7 +22,7 @@ public class Bill extends CustomerName{
         Date d = new Date();
         date = d.toString();
         System.out.println('\n');
-        System.out.println("-------------------------------------------------------");
+        System.out.println("**-------------------------------------------------------**");
         System.out.println("|  Bill No: "+billNo+" "+date+'\n');
         System.out.println("|  Customers Name: "+ name+'\n');
     }

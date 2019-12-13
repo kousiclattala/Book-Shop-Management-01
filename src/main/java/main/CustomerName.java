@@ -5,13 +5,16 @@ import java.util.Scanner;
 public class CustomerName{
 	String name;
 
-	public String getName() {
+	public String getName() 
+	{
 		
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(String name) 
+	{
 		//write your code here
+		this.name = name;
 	}
 	
 }

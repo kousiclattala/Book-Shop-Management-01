@@ -38,8 +38,11 @@ public class BookShop{
         int j = 0;
         Scanner sc = new Scanner(System.in);
         Cart c1 = new Cart();
+        System.out.println("Enter product no:");
         take1 = sc.nextInt(); //product name
-        while(take1 != -1){
+        while(take1 != -1)
+        {
+        	System.out.println("Enter product quantity:");
             take2 = sc.nextInt(); //quantity
             c1.updateCart(itemAvailable[take1-1], take2);
             take1 = sc.nextInt();
@@ -52,7 +55,7 @@ public class BookShop{
         cn.setName(s);
         
         c1.finalizeCart(cn.getName());
-        System.out.println("-------------------------------------------------");
+        System.out.println("**-------------------------------------------------**");
         // System.out.println("Checkout? Enter your Name:");
 
 
